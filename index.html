@@ -33,9 +33,9 @@
 				<footer>
 					<ul class="icons">
 						<li><a href="https://twitter.com/_lddeitz" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/lddeitz/" target="_blank" class="icon brands fa-facebook-f"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.linkedin.com/in/lddeitz/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://github.com/lddeitz" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="emailto:lddeitz@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="mailto:lddeitz@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -196,14 +196,14 @@
 							<section id="six">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>If you're interested in hearing from me, shoot over an email!</p>
+									<!-- <p>If you're interested in hearing from me, shoot over an email!</p>
 									
-										<a href="emailto:lddeitz@gmail.com" target="_blank">
+										<a href="mailto:lddeitz@gmail.com" target="_blank">
 											<button class="button">Email Me</button>
 										</a>
-						
-									<!-- <p>If you're interested in hearing from me, drop a line!</p>
-									<form method="post" action="#">
+						 -->
+									<p>If you're interested in hearing from me, drop a line!</p>
+									<form method="post" target="_blank" action="https://formspree.io/mwkrzalq">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -216,9 +216,12 @@
 												</ul>
 											</div>
 										</div>
-									</form> -->
+									</form>
+
+
 								</div>
 							</section>
+
 
 						<!-- Five --
 							<section id="five">
@@ -555,8 +558,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
-							<ul class="copyright">
+							<!-- <ul class="copyright">
 								<li>&copy; All rights reserved, 2020.</li><li></li>
+							</ul> -->
+							<ul class="icons">
+								<li><a href="https://twitter.com/_lddeitz" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/lddeitz/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/lddeitz" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:lddeitz@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</div>
 					</section>
@@ -572,5 +581,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction() {
+					var popup = document.getElementById("myPopup");
+					popup.classList.toggle("show");
+				}
+			</script>
 	</body>
 </html>
